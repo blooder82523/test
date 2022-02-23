@@ -10,6 +10,7 @@
     height: 40px;
    
   }
+ 
   #user-icon{
     padding: 10px;
     margin: 5px;
@@ -55,9 +56,8 @@
 
  
   ul.item-bar ul li{
-    border:  1px solid rgba(0, 0, 0, .15);
     
-    background-color: #FAF9F9 rgba(0, 0, 0, .15);
+    background-color: #545b6e 
     
 
   }
@@ -65,12 +65,10 @@
   .itemlist a{
     color: #faf9f9;
   }
- ul.item-bar li:hover{
-   color: #89b0ae;
- }
- .itembox ul li:hover{
-   color: #89b0ae;
- }
+
+  #itemlist-text:hover{
+    color: #89b0ae ;
+  }
 
   ul.item-bar ul li:hover{
     background-color: #89b0ae;
@@ -96,6 +94,8 @@
   }
  a{
   text-decoration: none;
+  font-family: 'Kaisei Tokumin', serif;
+  font-size:large;
   
  }
   .footerlist{
@@ -108,7 +108,7 @@
   .footeritem{
     list-style: none;
     display: flex;
-    padding: 20px;
+    
   
   }
   .flexcenter{
@@ -117,18 +117,19 @@
     justify-content: center;
   }
   
-  html, body {
-    height: 100%; /*外層高度100%*/
-    margin: 0;
+  html{
+    height: 100%;
+
   }
-  .footer{
-    height: 50px; /*設定footer本身高度*/
-  }
-  .wrapper{
+  body{
     min-height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
-
+  .wrapper{
+    flex: 1;
+  }
 
 /* banner */
 
