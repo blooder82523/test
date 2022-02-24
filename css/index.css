@@ -20,7 +20,12 @@
     margin: 5px;
     margin-right: 10px;
   }
-
+  .logo-pic{
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+  }
+  
   .item-bar{
     list-style: none;
     display: flex;
@@ -57,7 +62,9 @@
  
   ul.item-bar ul li{
     
-    background-color: #545b6e 
+    background-color: #545b6e ;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+
     
 
   }
@@ -105,9 +112,17 @@
     justify-content: center;
    
   }
+.footerlist a{
+  color: #faf9f9;
+}
+.footerlist a:hover{
+  color: #89b0ae;
+}
   .footeritem{
     list-style: none;
     display: flex;
+    padding: 20px;
+    margin-top: -10px;
     
   
   }
