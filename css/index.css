@@ -3,7 +3,10 @@
     border: 1px solid red;
 } */
 /* header  footer */
-
+.container-fluid{
+  padding: 0;
+  width:100%;
+}
 
 .icon-pic{
     width: 40px;
@@ -130,6 +133,8 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    background-color:#545b6e;height:80px;
+    padding:20px;width: 100%;
   }
   
   html{
