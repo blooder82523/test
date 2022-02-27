@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
    
   
    
@@ -78,6 +79,7 @@
 
   #itemlist-text:hover{
     color: #89b0ae ;
+    
   }
 
   ul.item-bar ul li:hover{
@@ -114,6 +116,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -1vh;
+    margin-left: -10vh;
+    
    
   }
 .footerlist a{
@@ -126,6 +130,8 @@
     list-style: none;
     display: flex;
     margin: 20px;
+    margin-bottom: -1vh;
+    
  
     
   
@@ -264,5 +270,8 @@ input{
   display: none;
 }
 
+#burger-icon{
+  margin-left:4vh ;
+}
 
 
