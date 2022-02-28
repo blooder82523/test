@@ -275,3 +275,54 @@ input{
 }
 
 
+/* 公告區 */
+
+.news-inner{
+ text-align: center;
+ height: 40px;
+ max-height: 20px;
+ overflow: hidden;
+}
+.news-text1{
+  position: relative;
+animation: change 2s ;
+-webkit-animation: change 2s ;
+animation-direction: alternate;
+-webkit-animation-direction: alternate;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+
+}
+@keyframes change{
+  from{top: 0px;}
+  to{top: 25px;}
+}
+@-webkit-keyframes change{
+  from{top: 0px;}
+  to{top: 25px;
+
+  }
+}
+
+.news-text2{
+  position: relative;
+  animation: change2 2s ;
+  -webkit-animation: change2 2s ;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+
+  
+
+}
+@keyframes change2 {
+  from{bottom: 0px;}
+  to{bottom: 40px;
+  }
+  
+}
+@-webkit-keyframes change2{
+ from{bottom: 0px;}
+ to{bottom: 40px;}
+}
