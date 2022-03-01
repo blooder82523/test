@@ -277,12 +277,36 @@ input{
 
 /* 公告區 */
 
+.news-box{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 800px;
+  margin: 0px auto;
+  
+}
+
 .news-inner{
  text-align: center;
  height: 40px;
  max-height: 20px;
  overflow: hidden;
+ margin-top: -45px;
 }
+
+
+.news-pic{
+  height: 60px;
+  width: 100px;
+  
+}
+.news-pic img{
+  height: 65px;
+  width: 120px;
+  float: left;
+  
+}
+
+
 .news-text1{
   position: relative;
 animation: change 2s ;
@@ -293,6 +317,8 @@ animation-iteration-count: infinite;
 -webkit-animation-iteration-count: infinite;
 
 }
+
+
 @keyframes change{
   from{top: 0px;}
   to{top: 25px;}
