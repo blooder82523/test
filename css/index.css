@@ -200,12 +200,6 @@
 }
 
 
-.carousel-control-next-icon{
-    background-color: black;
-}
-.carousel-control-prev-icon{
-    background-color: black;
-}
 
 
 .indexline{
@@ -216,9 +210,6 @@
 
 }
 
-.carousel-control-next, .carousel-control-prev{
-  width: 35%;
-}
 
 /* 會員漢堡選單 */
 
@@ -351,4 +342,12 @@ animation-iteration-count: infinite;
 @-webkit-keyframes change2{
  from{bottom: 0px;}
  to{bottom: 40px;}
+}
+
+
+/* =======banner輪播======== */
+
+.banner-pic{
+  width: 1000px;
+  height: 550px;
 }
